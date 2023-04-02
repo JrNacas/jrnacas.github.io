@@ -239,18 +239,18 @@ iframe {
 #open-card-close {
     position: absolute;
     left: 25px;
-    bottom: calc(var(--safe-area-inset-bottom) + 20px);
-    font-size: 17px;
+    bottom: calc(var(--safe-area-inset-bottom) + 30px);
+    font-size: 20px;
 }
 #open-card-qr {
     position: absolute;
     right: 70px;
-    bottom: calc(var(--safe-area-inset-bottom) + 20px);
+    bottom: calc(var(--safe-area-inset-bottom) + 30px);
 }
 #open-card-refresh {
     position: absolute;
     right: 25px;
-    bottom: calc(var(--safe-area-inset-bottom) + 20px);
+    bottom: calc(var(--safe-area-inset-bottom) + 30px);
 }
 .card-wrapper {
     position: relative;
