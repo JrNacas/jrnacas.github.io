@@ -277,7 +277,7 @@ iframe {
 .card-info {
     transform: rotate(90deg);
     color: #000;
-    opacity: 0.8;
+    opacity: 1;
     position: absolute;
     right: calc(50% - 0.04 * var(--card-width));
     text-align: left;
