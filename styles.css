@@ -240,7 +240,7 @@ iframe {
     position: absolute;
     left: 25px;
     bottom: calc(var(--safe-area-inset-bottom) + 30px);
-    font-size: 20px;
+    font-size: 30px;
 }
 #open-card-qr {
     position: absolute;
