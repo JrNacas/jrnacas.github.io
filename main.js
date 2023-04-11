@@ -16,9 +16,9 @@ $(document).ready(function () {
         openCardWindowShow = !openCardWindowShow;
         if (openCardWindowShow) {
             document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#222');
-            var full_name = localStorage.getItem('fullname') ? localStorage.getItem('fullname') : "Peter Parker";
+            var full_name = localStorage.getItem('fullname') ? localStorage.getItem('fullname') : "AIK STOCKHOLM";
             $("#card1-fullname,#card2-fullname").text(full_name);
-            var personal_number = localStorage.getItem('PN') ? localStorage.getItem('PN'): "990101-1234";
+            var personal_number = localStorage.getItem('PN') ? localStorage.getItem('PN'): "000000-1891";
             $("#card1-PN,#card2-PN").text(personal_number);
             var theRandomNumber = parseInt(personal_number) || 0;
             var firstFourDigits = 6032;
