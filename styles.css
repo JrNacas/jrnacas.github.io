@@ -12,8 +12,8 @@
         --card-width: 96vh;
         --card-height: 152.426332288vh;
         --card-margin-y: 2vh;
-        --view-width: 100vh;
-        --view-height: 100vw;
+        --view-width: 100vw;
+        --view-height: 100vh;
         --safe-area-inset-top: 1px;
         --safe-area-inset-bottom: 1px;
     }
