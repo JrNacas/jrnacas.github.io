@@ -3,7 +3,7 @@
     --card-height: 152.426332288vw;
     --card-margin-y: 2vw;
     --view-width: 100vw;
-    --view-height: 100vh;
+    --view-height: 90vh;
     --safe-area-inset-top: env(safe-area-inset-top);
     --safe-area-inset-bottom: env(safe-area-inset-bottom);
 }
@@ -13,7 +13,7 @@
         --card-height: 152.426332288vh;
         --card-margin-y: 2vh;
         --view-width: 100vh;
-        --view-height: 100vw;
+        --view-height: 90vw;
         --safe-area-inset-top: 1px;
         --safe-area-inset-bottom: 1px;
     }
