@@ -2,8 +2,8 @@
     --card-width: 96vw;
     --card-height: 152.426332288vw;
     --card-margin-y: 2vw;
-    --view-width: 90vw;
-    --view-height: 90vh;
+    --view-width: 100vw;
+    --view-height: 100vh;
     --safe-area-inset-top: env(safe-area-inset-top);
     --safe-area-inset-bottom: env(safe-area-inset-bottom);
 }
@@ -12,8 +12,8 @@
         --card-width: 96vh;
         --card-height: 152.426332288vh;
         --card-margin-y: 2vh;
-        --view-width: 100vw;
-        --view-height: 100vh;
+        --view-width: 100vh;
+        --view-height: 100vw;
         --safe-area-inset-top: 1px;
         --safe-area-inset-bottom: 1px;
     }
@@ -284,8 +284,8 @@ iframe {
     top: calc(0.06 * var(--card-height));
     font-size: calc(0.025 * var(--card-height));
     display: block;
-    width: calc(0.5 * 100vh;
-    height: calc(0.5 * 100vw;
+    width: calc(0.5 * var(--view-width));
+    height: calc(0.5 * var(--view-width));
 }
 #card1-number, #card2-number {
     font-size: calc(0.015 * var(--card-height));
