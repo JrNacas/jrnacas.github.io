@@ -130,13 +130,13 @@ iframe {
 .bottom-menu-item {
     float: left;
     width: 20%;
-    padding: 10px 0 5px;
+    padding: 19px 0 10px;
     box-sizing: border-box;
     text-align: center;
 }
 .bottom-menu-item img {
     width: 33%;
-    max-width: 28px;
+    max-width: 29px;
 }
 .leaf{
     position:absolute;
